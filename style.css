@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2;
+    padding: 0;
+    line-height: 2.2;
+    background-color: black;
+    color: grey;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+header h1 {
+    border-width: 2px;
+    border-bottom:solid dotted;
+    color:red ;
+    text-decoration: red dotted underline;
+    text-align:calc();
+    padding: 2px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+img {
+    height: 100;
+    width: 100;
+    vertical-align: middle;
+    margin-left: 10px; 
+    border: 2px solid white;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+h3{
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+    text-size-adjust: 25;
+    color: blue;
+    font-weight:italic;
+}
+article{
+    border: 5px;;
+    text-decoration-color: purple;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer p{
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+p1{
+ text-shadow: blue;
+}
+button{
+    background-color: white;
+    text-decoration: none;
+}
+button:hover
+{
+    background-color:aqua;
+    cursor: pointer;
+}
+button:visited
+{
+    background-color: white;
+}
+button:active
+{
+    background-color: red;
+    font-weight: bold;
+}
+.container{
+    display: flex; 
+            gap: 10px; 
+            justify-content: center;
+}
+.box{
+    width: 100%;
+    height: 100px;
+    background-color: lightgreen;
+    border: 2px solid white;
+
+}
+#N01
+{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+#N02
+{
+    margin-left: 200px;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+#N03
+{
+    margin-left: 200px;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+#N04
+{
+    margin-left: 200px;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+#list
+{
+    height: 110px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#box1
+{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: aqua;
+    background-size: cover;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaMc9K-agc-rAOZde7h07o8q8hs1rxtvdnHQ&s" );
+}
+#box2
+{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: aqua;
+    background-size: cover;
+    background-image: url("https://i0.wp.com/onedayitinerary.com/wp-content/uploads/2021/07/One-day-in-Kathmandu-itinerary.jpg?resize=723%2C542&ssl=1" );
+}
+#box3
+{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: aqua;
+    background-size: cover;
+    background-image: url("https://www.orangewayfarer.com/wp-content/uploads/2019/07/Copy-of-Add-a-heading-683x1024.jpg");
+}
+#box4
+{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: aqua;
+    background-size: cover;
+    background-image: url("https://i.ytimg.com/vi/8cDvYXCZad8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAfJlkqbx2hP0E-JTJbkc6G0SuZAg");
+}
